@@ -159,8 +159,8 @@ grafana_alerting:
 
 # Grafana logging configuration
 grafana_log:
-# mode: 'console file'
-# level: info
+  mode: "console file"
+  level: info
 
 # Internal grafana metrics system
 grafana_metrics: {}
@@ -189,7 +189,6 @@ grafana_image_storage: {}
 #  key_file:
 #  bucket:
 #  path:
-
 
 #######
 # Plugins from https://grafana.com/plugins
